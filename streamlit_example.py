@@ -1,30 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ### Design an app using streamlit
-# - Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
-# - Tornado is a Python web framework and an asynchronous networking library that relies on non-blocking network I/O to serve web applications.
-
-# In[2]:
-
-
-# !pip install streamlit
-# !pip install tornado==5.1
-# !pip install plotly
-
-
-# In[2]:
-
-
 import streamlit as st
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
-
-from scipy.stats import chi2_contingency
-from sklearn.preprocessing import LabelEncoder #ordinal encoding categorical features
 
 import pickle  #to load a saved model
 import base64  #to open .gif files in streamlit app
